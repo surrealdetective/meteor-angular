@@ -59,3 +59,36 @@
 
   ### Unanswered
   17 Can you do string interpolation w/ meteor or angular?
+
+## Part 3
+  
+  1 What would you typically do to hook up Angular w/ a server + database? What other 3 things might you do to make things instant?
+  2 What is distributed client code and why does meteor make writing it simple? How does accomplishing this task make things easier when writing a modern web app?
+  3 What is an RPC endpoint? What's the alternative to caching data on the client side? Why is providing invalidation messages tricky as data changes, typically? 
+  4 What database API does meteor's client and server share?
+  5 Compare & contrast w/ how validation on an SQL database differs from Ruby validation
+  6 How does Meteor's data security model handle code that runs on both client and server, to keep things safe?
+  7 What is Meteor's in-memory database cache called? How does it work?
+  8 What does it mean that a server "patches" each client's cache?
+  9 Compare Reactivity and 3 way data binding. Why use 2 different words?
+  10 Minimongo lets Mongo.collection be used on both client and server code. From which side does it port Mongo.collection's use over to?
+  11 Where does minimongo get instantiated?
+
+  12 Why do you create a "binding"? What happens now that you have one?
+  13 Instead of binding an empty array to a Mongo Collections, we instantiate that variable to a $meteor.collection. Why?
+  14 You're in app.js. What are the 3 or so things you do, in the order you do them?
+  15 Where does $meteor come from? Why is it passed into the controller? 
+  16. What does mongo.db replace?
+  
+
+  ### Database
+  17 How do you start mongo db w/ meteor?
+  18 What syntax adds data to which table in mongo db?
+  19 How do read all data from a mongo table?
+  20 How do you update the db using mongo?
+  21 How do you read Mongo docs / where's a good primer to learn these commands?
+
+  
+
+
+  ** which file is Mongo.Collection added to?
