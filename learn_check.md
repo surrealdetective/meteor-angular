@@ -57,4 +57,5 @@
   15 Use the angular directive ng-repeat to create a table
   16 Make an 8x8 table w/ ng-repeat
 
-  
+  ### Unanswered
+  17 Can you do string interpolation w/ meteor or angular?
