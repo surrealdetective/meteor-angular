@@ -88,7 +88,16 @@
   20 How do you update the db using mongo?
   21 How do you read Mongo docs / where's a good primer to learn these commands?
 
+## Part 4
   
+  1 How many times do you have to add the ng-model directive to a form?
+  2 Do you have to use quotation marks when adding angular directive to ng.html files?
+  3 What's the convention/sytax for adding a new party in a form that creates a new party?
+  4 Where is data stored when the user interacts with an ng-model binded html element?
+  5 When can you reference scoped variables directly? (without preceding w/ $scope.)
+  6 What angular directive do you use to hook up form submit w/ db?
+  7 For a button, what should be the default setting of the object, and why?
+  8 Can you add functions to be called in the view? How?
 
 
   ** which file is Mongo.Collection added to?

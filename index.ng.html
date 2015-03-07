@@ -4,8 +4,17 @@
     <li ng-repeat="party in parties">
       {{party.name}}
       <p>{{party.description}}</p>
+      <button ng-click="remove(party)">X</button>
     </li>
   </ul>
+
+  <form>
+    <label>Name</label>
+    <input ng-model="newParty.name">
+    <label>Description</label>
+    <input ng-model="newParty.description">
+    <button ng-click="parties.push(newParty); newParty='';">Add</button>
+  </form>
 
   <table>
     <tr ng-repeat="r in [0, 1, 2, 3, 4, 5, 6, 7]">
@@ -13,3 +22,4 @@
     </tr>
   </table>
 </div>
+
