@@ -139,3 +139,36 @@
   2 $meteor.object's purpose is what?
   3 What are the 2 arguments $meteor.object typically returns?
   4 How do you stop angular from auto-saving?
+
+  ### Controllering
+  1 How do you create save and reset buttons?
+  2 How do you create an if else statement in the controller? to determine success/failure 
+  3 Why is numberOfDocs and error passed to .then() 2 function args? : .then(function(numberOfDocs){}, function(error){});
+
+## Part 7
+  
+  ### Structure
+  1 In what 3 folders does meteor not load onto both server and client?
+  2 What's the diff btwn how css is loaded in development vs production? 
+  3 Ideally, you should do what in order to ensure css / dependencies are loaded sequentially?
+  
+  ### Load Order
+  4 What gets loaded first: subdirectories or parent directories?
+  5 Are files loaded in alphabetical order or updatedAt?
+  6 What's the diff btwn files in lib and files that match main.* in terms of load order?
+
+  ### Server
+  7 What folder do you keep private data in that only the server can read?
+
+  ### Client
+  8 What 3 folders does the client ignore when loading files?
+  8.5 For instance, does the client read what's in the models folder? Why is this useful? What's an example of a model that needs to be read on both client and server side?
+
+  ### Public
+  9 Where do you keep images, .ico, and robot.txt?
+
+  ### Angular
+  10 What are the 2 popular ways to manage folder structure?
+  11 What way is recommended by meteor-angular? Why?
+  12 What can you find out more by going to https://github.com/johnpapa/angularjs-styleguide#application-structure ?
+  13 
