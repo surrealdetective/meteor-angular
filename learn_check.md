@@ -12,7 +12,7 @@
 
 ## Part 1
 
-  1 Where should you put an HTML template that that Angular uses to dynamically display changing data?
+  1 Where should you put an HTML template that Angular uses to dynamically display changing data?
   2 If you don't see changes in your app, what should you try doing?
 
 ## Part 2
@@ -98,6 +98,34 @@
   6 What angular directive do you use to hook up form submit w/ db?
   7 For a button, what should be the default setting of the object, and why?
   8 Can you add functions to be called in the view? How?
-
+  9 What's a vanilla way of using .splice to remove an item from a collection?
+  10 How would you replace vanilla js w/ angular styled add and removal of objects?
+  11 What's the reasoning for doing things w/ Angular over regular js?
 
   ** which file is Mongo.Collection added to?
+
+## Part 5
+
+  ### Route Basics
+  1 How does $stateService, provided by $stateProvider, enable "deep linking"?
+  2 What's the difference between $stateProvider and $stateService. 
+  3 Why is $stateService used in conjunction w/ uiView directive?
+  4 What is uiView directive?
+  5 What is the rails equivalent of the uiView directive?
+  6 The whole point of $stateService and $uiView is to an app that has what feature?
+  
+  ### 2 PAGE APP
+  7 uiView replaces ng-include because?
+  8 <base href="/"> tag is required by HTML5 location mode becuase?
+
+  ### Routes
+  9 What method do you use to add routes to your app?
+  10 Where do you create routes?
+  11 What dependencies do you inject to handle route creation?
+  12 What method do you use from which dependency to actually name the routes?
+  13 How do you handle urls that users may go to, that don't exist?
+  14 Why doesn't angular use regular urls?
+  15 Because angular doesn't use regular urls, HTML5 location mode is used. What is this?
+  16 $stateParams is used to do what re: urls?
+  17 How do you pass $stateParams or change it?
+
