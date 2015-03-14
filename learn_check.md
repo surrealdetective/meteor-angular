@@ -136,4 +136,6 @@
 
   ### Binding
   1 What do you use to bind an object to the view?
-  2 
+  2 $meteor.object's purpose is what?
+  3 What are the 2 arguments $meteor.object typically returns?
+  4 How do you stop angular from auto-saving?
