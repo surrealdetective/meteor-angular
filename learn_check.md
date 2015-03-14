@@ -171,4 +171,9 @@
   10 What are the 2 popular ways to manage folder structure?
   11 What way is recommended by meteor-angular? Why?
   12 What can you find out more by going to https://github.com/johnpapa/angularjs-styleguide#application-structure ?
-  13 
+  
+  ### Restructuring 
+  13 Why put routes.js in client folder?
+  14 What runs in the app.js file located in client/lib?
+  15 ReTest: what method is used to define routes?
+  16 
