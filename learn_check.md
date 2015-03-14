@@ -128,4 +128,12 @@
   15 Because angular doesn't use regular urls, HTML5 location mode is used. What is this?
   16 $stateParams is used to do what re: urls?
   17 How do you pass $stateParams or change it?
+  18 When you click back (after navigating around), what happens, and what could have happened instead?
 
+  ** How do you get /parties/random12309sd to generate an error bc it doesn't exist?
+
+## Part 6
+
+  ### Binding
+  1 What do you use to bind an object to the view?
+  2 

@@ -1,12 +1,11 @@
 Parties = new Mongo.Collection("parties");
 
 if (Meteor.isClient) {
+  // define angular
+  angular.module('socially',['angular-meteor', 'ui.router']);
 
-// angular.module('socially',['angular-meteor']);
-angular.module('socially',['angular-meteor', 'ui.router']);
-
-// config
-angular.module("socially").config(['$urlRouterProvider', '$stateProvider', '$locationProvider',
+  // config
+  angular.module("socially").config(['$urlRouterProvider', '$stateProvider', '$locationProvider',
   function($urlRouterProvider, $stateProvider, $locationProvider){
 
     $locationProvider.html5Mode(true);
@@ -23,11 +22,11 @@ angular.module("socially").config(['$urlRouterProvider', '$stateProvider', '$loc
         controller: 'PartyDetailsCtrl'
       });
 
-      $urlRouterProvider.otherwise("/parties");
-}]);
+    $urlRouterProvider.otherwise("/parties");
+  }]);
 
-// controller
-angular.module("socially").controller("PartiesListCtrl", ['$scope', '$meteor',
+  // controller
+  angular.module("socially").controller("PartiesListCtrl", ['$scope', '$meteor',
   function($scope, $meteor){
 
     $scope.parties = $meteor.collection(Parties);
@@ -41,14 +40,18 @@ angular.module("socially").controller("PartiesListCtrl", ['$scope', '$meteor',
     };
 
   }]);
+
+  // controller
+  angular.module("socially").controller("PartyDetailsCtrl", ['$scope', '$stateParams', '$meteor',
+    function($scope, $stateParams, $meteor){
+
+      $scope.party = $meteor.object(Parties, $stateParams.partyId);
+
+  }]);
+// end of client code
 }
 
-angular.module("socially").controller("PartyDetailsCtrl", ['$scope', '$stateParams',
-  function($scope, $stateParams){
 
-    $scope.partyId = $stateParams.partyId;
-
-}]);
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
