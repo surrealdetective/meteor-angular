@@ -198,4 +198,10 @@
   11 What scope is the upper-most, available in every scope and singleton?
   12 How do you use $rootScope in a view? How do you use it in a controller?
   13 Under what scope do you find currentUser?
-  14 
+  14 How do you access the id of the current user in a view?
+  15 what method of any given object sets ownership, i.e. a has_one or has_many relationship?
+  16 In general, how do you permit users within .allow?
+
+  ### Authentication
+  17 What's the advantage of popup-based views over redirect ones? 
+  18 Redirect is preferred inside 'UIWebViews' and 'Safari on iOS8'. Doesn't this make it always preferable, or how do you detect when these cases occur? What is UIWebViews?
