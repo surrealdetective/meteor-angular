@@ -205,3 +205,17 @@
   ### Authentication
   17 What's the advantage of popup-based views over redirect ones? 
   18 Redirect is preferred inside 'UIWebViews' and 'Safari on iOS8'. Doesn't this make it always preferable, or how do you detect when these cases occur? What is UIWebViews?
+
+Part 9
+  ### Privacy
+  1 Why are db access and read access handled separately in Meteor (vs. CanCan in Ruby)
+  2 What meteor package publishes a local copy of the db onto every client?
+  3 In what folder do you write read permissions? In what folder do you write 'write' permissions?
+  4 What method do you use to decide what parts of the db to copy over from the server to the client?
+  5 Describe the 'subscription' model of giving users access to data.
+  6 My understanding is that the client publishes streams, that the client has to subscribe to, to receive that info. You subscribe to these streams where you connect db data to a variable, typically in controllers. At its barest bones, you simply subscribe, but you can also include what?
+  7 What 3 mongo operators are used to filter queries?
+  8 What object type does .find expect?
+  9 What object type does $or and $and expect?
+  10 How is the $exist operator used?
+  11 Why is "public": but owner: different, when used to specify attributes within db?
