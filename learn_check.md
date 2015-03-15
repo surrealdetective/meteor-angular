@@ -176,4 +176,26 @@
   13 Why put routes.js in client folder?
   14 What runs in the app.js file located in client/lib?
   15 ReTest: what method is used to define routes?
-  16 
+
+## Part 8
+  
+  ### Login
+
+  1 What's the default setting for meteor re: access?
+  2 How do you remove this default setting? What does it remove exactly?
+  3 W/ packages accounts-password and accounts-ui, you get {{> loginButtons }} to display forms. How angular directive do you use to map this html onto Angular?
+  4 What's the syntax for this angular directive? How do you specify loginButtons? What is it similar to re: other angular directives?
+
+  ### Permissions
+  5 Where do you write permissions?
+  6 What method do you use to write permissions?
+  7 What is a "document" in the context of mongo?
+  8 What 3 callbacks determine permissions?
+  9 For insert, a doc has an _id field. What's the diff btwn explicit id setting by client and "active transform"?
+  10 What 4 arguments are sent to update? What object type is fieldNames, what kind of arguments are sent within modifier?
+
+  ### Current User
+  11 What scope is the upper-most, available in every scope and singleton?
+  12 How do you use $rootScope in a view? How do you use it in a controller?
+  13 Under what scope do you find currentUser?
+  14 
