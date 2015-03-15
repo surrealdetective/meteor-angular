@@ -219,3 +219,4 @@ Part 9
   9 What object type does $or and $and expect?
   10 How is the $exist operator used?
   11 Why is "public": but owner: different, when used to specify attributes within db?
+  12 When did users no longer see what everyone does?
