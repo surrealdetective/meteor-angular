@@ -206,6 +206,11 @@
   17 What's the advantage of popup-based views over redirect ones? 
   18 Redirect is preferred inside 'UIWebViews' and 'Safari on iOS8'. Doesn't this make it always preferable, or how do you detect when these cases occur? What is UIWebViews?
 
+  ### Redirect w/o Auth
+  19 What object do you use within routes to stop users from accessing auth-required pages?
+  20 How do you require certain pages to be auth-required?
+  21 Where do you create a hook that catches the auth-rejection error to redirect to home?
+
 Part 9
   ### Privacy
   1 Why are db access and read access handled separately in Meteor (vs. CanCan in Ruby)
@@ -220,3 +225,4 @@ Part 9
   10 How is the $exist operator used?
   11 Why is "public": but owner: different, when used to specify attributes within db?
   12 When did users no longer see what everyone does?
+
